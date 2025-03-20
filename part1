@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VestaSim</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--Navigation Bar-->
+  <nav class="navbar">
+    <h1 class="logo">VestaSim</h1>
+    <ul class="navlinks">
+      <li class="active"><a href="#">Buy</a></li>
+      <li><a href="#">Sell</a></li>
+      <li><a href="#">Rent</a></li>
+      <li><a href="#">About</a></li>
+      <li class="ctn"><a href="#">Contact</a></li>
+    </ul>
+    <button id="login-btn" class="login-btn">Login</button>
+  </nav>
+
+  <header>
+    <div class="header-content">
+      <h2>Simulate, Invest, and Grow on your path to property success</h2>
+      <div class="line"></div>
+      <h1>Welcome to VestaSim</h1>
+      <a href="#" class="ctn">Learn More</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="title">
+      <h1>Upcoming Events</h1>
+      <div class="line"></div>
+    </div>
+  </section>
+
+  <!-- Login Form (Initially Hidden) -->
+  <div class="login-overlay" id="login-overlay">
+    <div class="login-box">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <p><a href="#" id="create-account" style="color: black;">Create Account</a></p>
+      <div class="buttons">
+        <button id="login-submit">Login</button>
+        <button id="cancel-login">Cancel</button>
+      </div>
+    </div>  
+  </div>
+
+  <!-- Registration Form (Initially Hidden) -->
+<div class="register-overlay" id="register-overlay">
+    <div class="register-box">
+      <h2>Create Account</h2>
+      <input type="text" id="new-username" placeholder="Enter Username">
+      <input type="password" id="new-password" placeholder="Enter Password">
+      <div class="buttons">
+        <button id="register-submit">Register</button>
+        <button id="cancel-register">Cancel</button>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
