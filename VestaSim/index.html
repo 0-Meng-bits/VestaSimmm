@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VestaSim</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!--Navigation Bar-->
+  <nav class="navbar">
+    <h1 class="logo">VestaSim</h1>
+    <ul class="navlinks">
+      <li class="active"><a href="#">Buy</a></li>
+      <li><a href="#">Sell</a></li>
+      <li><a href="#">Rent</a></li>
+      <li><a href="#">About</a></li>
+      <li class="ctn"><a href="#">Contact</a></li>
+    </ul>
+    <button id="login-btn" class="login-btn">Login</button>
+  </nav>
+
+  <header>
+    <div class="header-content">
+      <h2>Simulate, Invest, and Grow on your path to property success</h2>
+      <div class="line"></div>
+      <h1>Welcome to VestaSim</h1>
+      <a href="#" class="ctn">Learn More</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="title">
+      <h1>Upcoming Events</h1>
+      <div class="line"></div>
+    </div>
+  </section>
+
+  <!-- Login Form (Initially Hidden) -->
+  <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+      <span class="close-btn material-symbols-rounded">close</span>
+      <div class="form-box login">
+          <div class="form-details">
+              <h2>Welcome Back</h2>
+              <p>Please Login your personal account</p>
+          </div>
+          <div class="form-content">
+              <h2>LOGIN</h2>
+              <form action="#" method="post">
+                  <div class="input-field">
+                      <input type="text" required>
+                      <label id="email">Email</label>
+                  </div>
+                  <div class="input-field">
+                      <input type="password" required>
+                      <label id="password">Password</label>
+                  </div>  
+                  <a href="#" class="forgot-pass">Forgot Password?</a>
+                  <button type="submit" id="loginBtn">Log In</button>
+              </form>
+              <div class="bottom-link">
+                  Don't have an account?
+                  <a href="#" id="signup-link">Signup</a>
+              </div>
+          </div>
+      </div>
+      <div class="form-box signup">
+          <div class="form-details">
+              <h2>Create Account</h2>
+              <p>Be part of our fast growing company!</p>
+          </div>
+          <div class="form-content">
+              <h2>SIGNUP</h2>
+              <form action="#">
+                  <div class="input-field">
+                      <input type="text" required>
+                      <label>Enter your email</label>
+                  </div>
+                  <div class="input-field">
+                      <input type="password" required>
+                      <label>Create password</label>
+                  </div>  
+                  <div class="policy-text">
+                      <input type="checkbox" id="policy">
+                      <label for="policy">
+                          I agree the
+                          <a href="#">Terms & Conditions</a>
+                      </label>
+                  </div>
+                  <button type="submit">Sign Up</button>
+              </form>
+              <div class="bottom-link">
+                  Already have an account?
+                  <a href="#" id="login-link">Login</a>
+              </div>
+          </div>
+      </div>
+    </div>
+  
+
+
+</body>
+</html>
